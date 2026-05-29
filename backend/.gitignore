@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 环境变量（保留模板）
+# .env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 上传文件目录（保留目录结构，但不提交实际文件）
+static/uploads/*
+!static/uploads/.gitkeep
+static/avatars/*
+!static/avatars/.gitkeep
+static/movie_video/*
+!static/movie_video/.gitkeep
+static/movie_pic/*
+!static/movie_pic/.gitkeep
+
+# 数据库
+instance/
+*.db
+
+# 日志
+*.log
